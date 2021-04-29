@@ -1,10 +1,19 @@
 {
-  "name": "GenoPad IDE",
-  "short_name": "GenoPad IDE",
-  "display": "minimal-ui",
+  "android_package_name": "xyz.genoweb.pad",
+  "prefer_related_applications": true,
+  "related_applications": [
+    {
+      "id": "xyz.genoweb.pad",
+      "platform": "chromeos_play"
+    }
+  ],
+  "short_name": "GenoPad",
+  "name": "GenoPad",
   "start_url": "/",
   "theme_color": "#0090FF",
   "background_color": "#ffffff",
+  "display": "standalone",
+  "scope": "/",
  "icons": [
   {
    "src": "/android-icon-36x36.png",
